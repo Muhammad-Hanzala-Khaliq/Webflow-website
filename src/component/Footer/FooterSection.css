@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+.footer__section{
+  font-family: "Raleway", sans-serif;
+ padding-bottom: 15rem;
+  padding-top: 15rem;
+  position: relative;
+  padding-left: 5rem;
+padding-right: 2rem;
+}
+
+.footer__section .container{
+    background-image: linear-gradient(to right,  rgb(255, 255, 255,0.8), rgba(214, 221, 237,0.1) );
+    box-shadow: rgb(255, 255, 255,0.8)  0px 1px 4px, rgb(255, 255, 255,0.8),  0px 0px 0px 3px;
+    border-radius: 20px;
+    padding-top: 8rem;
+    padding-left: 6rem;
+    
+    padding-bottom: 8rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.first__footer__flex .primary__list{
+    background-color: transparent;
+}
+.footer_col{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.footer__first__col{
+    width: 50%;
+}
+.footer_logo img{
+    width: 50%;
+}
+.footer__para p,.footer__para2{
+    margin-top: 2rem;
+    color: #8987A1;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+}
+ .first__footer__flex{
+    display: flex;
+    /* justify-content: center; */
+     align-items: center;
+     
+    
+ } 
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+gap: 1.5rem;
+}
+.insta{
+    background-color: #F5F8FF;
+    padding: 1.5em;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.insta:hover{
+    background-color: #332e4b;
+    color: #fff;
+    transition: all 0.7s ease-in;
+    -webkit-transition: all 0.7s ease-in;
+    -moz-transition: all 0.7s ease-in;
+    -ms-transition: all 0.7s ease-in;
+    -o-transition: all 0.7s ease-in;
+}
+
+@media (max-width:900px){
+    .footer_col{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer__first__col{
+        width: 70%;
+    }
+   .first__footer__flex{
+    text-align: left;
+    /* margin-left: -10rem; */
+   }
+}
+@media (max-width:626px){
+    .icons{
+        margin-top: 3rem;
+       padding: 1rem;
+    }
+}
+@media(max-width:368px){
+.footer__para p,.footer__para2{
+    font-size: 1rem;
+}
+.footer__sec__col .primary__list .nav__list a{
+    margin-left: 30px;
+    font-size: 1rem;
+ }
+
+}
+@media (max-width:344px){
+    .footer__sec__col .primary__list .nav__list {
+        /* margin-left: 1rem; */
+        
+     }
+}

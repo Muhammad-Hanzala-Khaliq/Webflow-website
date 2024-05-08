@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+.check__section{
+  font-family: "Raleway", sans-serif;
+  margin-top: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  position: relative;
+
+}
+.check-section__img1{
+position: relative;
+max-width: 100%;
+color: rgba(245, 248, 255,0.5);
+}
+.check__section__heading,.check__section__para{
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform:translate(-46%,50%) ;
+  text-align: center;
+  -webkit-transform:translate(-46%,50%) ;
+  -moz-transform:translate(-46%,50%) ;
+  -ms-transform:translate(-46%,50%) ;
+  -o-transform:translate(-46%,50%) ;
+}
+.check__section__heading{
+  font-size: 4rem;
+}
+.check__section__para{
+
+  font-size: 1.7rem;
+  margin-top: 7rem;
+  color: #8987A1;
+}
+/* .background__material{
+  position: relative;
+  /* background-color: white; */
+/* border: 10px solid white; */
+/* } */ 
+.check-section__img2{
+  position: absolute;
+width: 50%;
+  left: 50%;
+  top: 30%;
+  transform:translate(-50%,1%) ;
+  -webkit-transform:translate(-50%,1%) ;
+  -moz-transform:translate(-50%,1%) ;
+  -ms-transform:translate(-50%,1%) ;
+  -o-transform:translate(-50%,1%) ;
+}
+
+@media (max-width:1148px){
+  .check-section__img1{
+    max-width: 99%;
+  }
+  .check-section__img2{
+    width: 80%;
+    top: 35%;
+  }
+  .check__section__para,.check__section__heading{
+    width: 80%;
+   
+  }
+}
+@media (max-width:748px){
+  .check__section__heading{
+    font-size: 3.5rem;
+  }
+}
+@media (max-width:670px){
+  .check__section__heading,.check__section__para{
+    position: absolute;
+  top: 8%;
+  text-align: center;
+  }
+}
+@media (max-width:565px){
+  .check__section__heading,.check__section__para{
+    position: absolute;
+  top: -8%;
+  text-align: left;
+
+  }
+}
+@media (max-width:430px){
+  .check__section__heading{
+    position: absolute;
+  top: -10%;
+  font-size: 3rem;
+
+  }
+ .check__section__para{
+    position: absolute;
+  top: -20%;
+  text-align: left;
+font-size: 1.5rem;
+  }
+}
+@media (max-width:358px){
+  .check-section__img2{
+    top: 50%;
+  }
+}
+@media (max-width:320px){
+  .check__section__heading{
+    top: -7%;
+    font-size: 2.5rem;
+  }
+  .check__section__para{
+    font-size: 1.3rem;
+  }
+}
+@media (max-width:282px){
+  .check-section__img2{
+    top: 54%;
+  }
+}

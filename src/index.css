@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: rgba(245, 248, 255,0.6);
+}
+html{
+  font-size: 62.5%;
+}
+img{
+  max-width: 100%;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+.hero__section{
+  font-family: "Raleway", sans-serif;
+  
+
+}
+.banner-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-card img{
+  /* max-width: 85%; */
+  height: 85vh;
+
+
+}
+.banner-card{
+  position: relative;
+}
+.banner-text{
+  position: absolute;
+  top: 19%;
+  text-align: center;
+  left: 25%;
+  color: #252432;
+  width: 50%;
+  /* padding-left: 310px; */
+}
+.banner-text h1{
+font-size: 6rem;
+}
+.btn{
+  padding: 0.8em 2.5em;
+  border-radius: 0.6em;
+  margin-top: -4.5rem;
+  background-color: #252432;
+  transition: background-color 0.5s ease;
+  -webkit-border-radius: 0.6em;
+  -moz-border-radius: 0.6em;
+  -ms-border-radius: 0.6em;
+  -o-border-radius: 0.6em;
+}
+.hero__btn{
+  color: #fff;
+text-decoration: none;
+}
+.btn:hover{
+  background-color: #16151b;
+  cursor: pointer;
+}
+
+@media (max-width:842px){
+  html{
+    font-size: 56.5%;
+  }
+  .banner-text h1{
+    font-size: 5rem;
+  }
+}
+@media (max-width:714px){
+  .banner-text h1{
+    font-size: 4.5rem;
+  }
+}
+@media (max-width:650px){
+  .banner-text{
+    width: 60%;
+    left: 20%;
+  }
+}
+@media (max-width:548px){
+  .banner-text{
+    width: 70%;
+  }
+  .banner-text h1{
+    font-size: 3.5rem;
+  }
+}
+@media (max-width:392px){
+  .banner-text{
+    width: 100%;
+    left: 1%;
+  }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+.faq__section{
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  padding-top: 15em;
+}
+.faq__section .container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 7rem;
+}
+.faq__heading{
+    width: 30%;
+    margin-top: 14rem;
+}
+.faq__heading h2{
+    font-size: 5rem;
+  
+}
+.faq__accordian{
+    width: 50%;
+}
+@media (max-width:900px){
+    .faq__section .container{
+        display: block;
+    }
+    .faq__heading{
+        width: 100%;
+    }
+    .faq__accordian{
+        width: 100%;
+    }
+}
+@media (max-width:748px){
+    .faq__heading{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .faq__heading h2{
+         font-size: 3rem;
+    }
+}
